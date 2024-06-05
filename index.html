@@ -66,12 +66,44 @@
         <button class="px-5 py-1 bg-black text-white rounded-3xl hover:bg-gray-500">Shop</button>
       </div>
 
-     <div class="grid grid-cols-2 mt-10">
-          <div><img src="/src/image/shoes1.jpeg" alt="">
+     <div class="grid grid-cols-2 mt-10 sm:grid sm:grid-cols-1">
+          <div class="relative">
+            <img src="/src/image/shoes1.jpeg" alt="">
+             <div class="flex flex-col absolute top-96 left-12 gap-3 sm:top-36 sm:left-5">
+               <span class="text-white font-medium ">Nike Motiva</span>
+               <span class="text-white font-semibold text-2xl sm:text-xl">For All Walks</span>
+               <button class="w-16 h-8 bg-white text-black rounded-3xl hover:bg-gray-200  font-semibold text-base">Shop</button>
+             </div>
+              
           </div>
-          <div><img src="/src/image/shoes2.jpeg" alt=""></div>
-          <div><img src="/src/image/shirt.jpg" alt=""></div>
-          <div><img src="/src/image/running.jpeg" alt=""></div>
+
+          <div class="relative">
+              <img src="/src/image/shoes2.jpeg" alt="">
+              <div class="flex flex-col absolute top-96 left-12 gap-3 sm:top-36 sm:left-5">
+                <span class="text-white font-medium ">Monochrome Looks</span>
+                <span class="text-white font-semibold text-2xl sm:text-xl">Earth Tones</span>
+                <button class="w-16 h-8 bg-white text-black rounded-3xl hover:bg-gray-200  font-semibold text-base">Shop</button>
+              </div>
+          </div>
+
+          <div class="relative">
+            <img src="/src/image/shirt.jpg" alt="">
+             <div class="flex flex-col absolute top-96 left-12 gap-3 sm:top-36 sm:left-5">
+              <span class="text-white font-medium ">Father's Day</span>
+              <span class="text-white font-semibold text-2xl sm:text-xl">Dad-Worthy Fits</span>
+              <button class="w-16 h-8 bg-white text-black rounded-3xl hover:bg-gray-200  font-semibold text-base">Shop</button>
+            </div>
+          </div>
+
+          <div class="relative">
+            <img src="/src/image/running.jpeg" alt="">
+            <div class="flex flex-col absolute top-80 left-12 gap-3 sm:top-28 sm:left-5">
+              <span class="text-white font-medium ">Nike Vaporffy3</span>
+              <span class="text-white font-semibold text-2xl sm:text-xl">Race Day Speed to</span>
+              <span class="text-white font-semibold text-2xl sm:text-xl">Conquer Any Distance</span>
+              <button class="w-16 h-8 bg-white text-black rounded-3xl hover:bg-gray-200  font-semibold text-base">Shop</button>
+            </div>
+          </div>
      </div>
    </section>
 </body>
