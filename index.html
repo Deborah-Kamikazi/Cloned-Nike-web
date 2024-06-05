@@ -10,9 +10,10 @@
 </head>
 <body>
    <nav>
-      <div class="flex flex-row justify-between bg-[#F5F5F5] h-10 items-center px-12 sm:hidden">
-            <div>
+      <div class="flex flex-row justify-between bg-[#F5F5F5] h-10 items-center px-12 sm:hidden lg:hidden">
+            <div class="flex gap-5">
                 <img src="/src/image/jordan.svg" alt="">
+                <img src="/src/image/strar.svg" alt="">
             </div>
 
             <div>
@@ -31,7 +32,7 @@
           <div> 
             <img src="/src/image/logo2.svg" alt="" class="">
           </div>
-          <div class="sm:hidden"> 
+          <div class="sm:hidden lg:hidden"> 
               <ul class="flex gap-10 font-semibold text-base">
                   <li>New & Featured</li>
                   <li>Men</li>
@@ -43,18 +44,35 @@
           </div>
           <div class="flex gap-3">
           
-            <div class="bg-[#F5F5F5] h-9 w-52 rounded-3xl flex items-center px-3 sm:hidden">
+            <div class="bg-[#F5F5F5] h-9 w-52 rounded-3xl flex items-center px-3 sm:hidden lg:hidden">
               <img src="/src/image/search.svg" alt="" class="h-6 mr-2">
               <input type="text" placeholder="Search" class="outline-none bg-transparent flex-grow">
             </div>
-              <img src="/src/image/search.svg" alt="" class="h-6 hidden sm:flex">
-               <img src="/src/image/like.svg" alt="" class="h-6 sm:hidden">
-               <img src="/src/image/user.svg" alt="" class="h-6 hidden sm:flex">
+              <img src="/src/image/search.svg" alt="" class="h-6 hidden sm:flex lg:flex">
+               <img src="/src/image/like.svg" alt="" class="h-6 sm:hidden lg:hidden">
+               <img src="/src/image/user.svg" alt="" class="h-6 hidden sm:flex lg:flex">
                <img src="/src/image/case.svg" alt="" class="h-6">
-              <img src="/src/image/bars.svg" alt="" class="h-6 text-black hidden sm:flex">
+              <img src="/src/image/bars.svg" alt="" class="h-6 text-black hidden sm:flex lg:flex">
           </div>
           
       </div>
    </nav>
+
+   <section class="h-full">
+        <video src="/src/image/video.mp4" muted loop autoplay class="w-full  sm:h-[100%]"></video>
+      <div class="flex flex-col items-center gap-5 w-full sm:items-center mt-10">
+         <span class="text-7xl font-extrabold sm:text-4xl sm:text-center lg:text-center lg:text-4xl"> A STAR ALWAYS SHINES</span>
+         <p  class="w-[37%] font-medium sm:w-[70%] lg:w-[65%]">Tennis phenom carlos Alcaraz's style is built for the bright lights ,both on and off the court</p>
+        <button class="px-5 py-1 bg-black text-white rounded-3xl hover:bg-gray-500">Shop</button>
+      </div>
+
+     <div class="grid grid-cols-2 mt-10">
+          <div><img src="/src/image/shoes1.jpeg" alt="">
+          </div>
+          <div><img src="/src/image/shoes2.jpeg" alt=""></div>
+          <div><img src="/src/image/shirt.jpg" alt=""></div>
+          <div><img src="/src/image/running.jpeg" alt=""></div>
+     </div>
+   </section>
 </body>
 </html>
